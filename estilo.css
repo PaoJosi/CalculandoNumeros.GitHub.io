@@ -1,0 +1,52 @@
+body {
+    background-color:rgb(207, 227, 243);
+    font-family: Arial, sans-serif;
+margin: 0;
+display: flex;
+}
+nav {
+width: 200px;
+background-color: black;
+padding: 15px;
+height: 110vh; /* Altura completa de la ventana */
+}h2 {
+color: white;    
+
+}
+
+nav a {
+
+color: white;
+padding: 10px;
+text-decoration: none;
+display: block;
+}
+nav a:hover {
+background-color: gray;
+}
+main {
+
+flex-grow: 1;
+padding: 1px;
+}
+header {
+margin-bottom: 30px;
+background-color: black;
+color: white;
+padding: 5px;
+text-align: center;
+
+}
+h3{
+
+text-align: center;
+}
+img {
+    width: 900px;
+    max-width: 2000px;
+    height: 500px;
+    max-height: 2000px;
+    display: block; 
+    margin: 0 auto;
+
+}   

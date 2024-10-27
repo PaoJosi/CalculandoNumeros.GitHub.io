@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(207, 227, 243);
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+form {
+    width: 90%; /* Ancho flexible */
+    max-width: 600px;
+    height: auto;
+    text-align: center;
+    border: solid 3px white;
+    padding: 4vw; /* Ajuste de padding relativo */
+    margin: 10vh auto;
+    background: black;
+    border-radius: 20px;
+}
+
+input[type=text] {
+    width: 85%;
+    padding: 3vw; /* Ajuste de padding relativo */
+    font-size: 5vw; /* Tamaño de fuente relativo */
+    margin: 2px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    text-align: right;
+    color: #140404;
+    background: white;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 3vw; /* Ajuste de padding relativo */
+    font-size: 4vw; /* Tamaño de fuente relativo */
+    min-width: 20%;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: transparent;
+}
+
+/* Media Query para pantallas grandes */
+@media (min-width: 768px) {
+    form {
+        padding: 60px;
+    }
+
+    input[type=text] {
+        padding: 15px;
+        font-size: 30px;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+        padding: 30px;
+        font-size: 25px;
+    }
+}
